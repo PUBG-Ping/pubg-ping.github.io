@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #555;
+    height: 100%;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 10vh 0;
+    background-image: url(http://jgthms.com/web-design-in-4-minutes/header.jpg);
+    background-size: cover;
+    background-position: center, top;
+}
+
+header h1 {
+    color: white;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+header h3 {
+    color: #e5e5e5;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+header a {
+    border: 1px solid #e5e5e5;
+    border-radius: 9999999px;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: .6em;
+    letter-spacing: .3em;
+    transition: background-color 300ms;
+}
+
+header a:hover {
+    background-color: #e5e5e5;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+    color: #333;
+}
+
+.container {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 0 10px;
+}
